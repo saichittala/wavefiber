@@ -36,7 +36,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #171717;
 }
 
 #preloader:before {
@@ -44,7 +44,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #28282B;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -421,12 +421,16 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
+  border: 1px solid #171717;
   color: #fff;
-  background: #47b2e4;
+  background: #676767;
+  width: 30%;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #171717;
+  color: #fff;
+  border: 3px solid #171717;
 }
 
 #hero .btn-watch-video {
@@ -547,7 +551,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #fff;
 }
 
 .section-title h2::before {

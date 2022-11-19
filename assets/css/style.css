@@ -910,10 +910,63 @@ section {
 }
 
 /*--------------------------------------------------------------
+/*--------------------------------------------------------------
+# Wifi Password Change
+--------------------------------------------------------------*/
+#WifiPass {
+  background: linear-gradient(rgba(20, 25, 30, 0.9), rgba(20, 25, 30, 0.9)), url("../img/pricing-bg.jpg") fixed center center;
+  background-size: cover;
+}
+.WifiPass .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 40px 40px;
+  border-radius: 10px 15px 15px 10px;
+  transition: all ease-in-out 0.5s;
+  background: #171717;
+  width: 100%;
+}
+
+.WifiPass .icon-box .icon {
+  margin-bottom: 20px;
+}
+
+.WifiPass .icon-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.9s;
+}
+
+.WifiPass .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.WifiPass .icon-box h4 a {
+  color: #fff;
+  transition: ease-in-out 0.9s;
+}
+
+.WifiPass .icon-box p {
+  color: #E2E5DE;
+  line-height: 22px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.WifiPass .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.WifiPass .icon-box:hover h4 a {
+  color: #47b2e4;
+}
+
+/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(20, 25, 30, 0.9), rgba(20, 25, 30, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(20, 25, 30, 0.9), rgba(20, 25, 30, 0.9)), url("../img/pexels-sy-donny-1841841.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
